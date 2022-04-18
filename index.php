@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is home page</h1>
+    <h1>This is home page</h1><br>
+    <?php
+    include ('functions.php');
+    echo calcAdd($num1,$num2);
+    ?>
 </body>
 </html>
