@@ -18,4 +18,8 @@ echo $num2;
 echo '<br>';
 echo $num1;
 echo '<br>';
+echo $num2;
+echo '<br>';
+echo $num1;
+echo '<br>';
 ?>
