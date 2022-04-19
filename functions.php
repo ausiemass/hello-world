@@ -2,18 +2,20 @@
  $sum = 0;
  $num1 = 10;
  $num2 = 15;
-function calcAdd(&$num1, &$num2){
-    $num2 = $num2 + 57;
-    $num1 = $num1 + 8;
-    $sum = $num1 + $num2;
+function calcAdd(&$number1, &$number2){
+    $number2 = $number2 + 57;
+    $number1 = $number1 + 8;
+    $sum = $number1 + $number2;
     return $sum;
 } 
 
 echo $sum;
 echo '<br>';
 
-echo $num1;
+echo calcAdd($num1, $num2);
 echo '<br>';
 echo $num2;
+echo '<br>';
+echo $num1;
 echo '<br>';
 ?>
